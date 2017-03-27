@@ -1,0 +1,76 @@
+body {
+	background-image:url('casinobackground.jpg');
+	background-size: 100%;
+    background-repeat:repeat;
+	background-color: white;
+	text-align: center;
+	margin:0 auto;
+	padding: 0;
+	color: black;
+	
+}
+
+#head {
+  width:80%;
+  height: 50%;
+  display:block;
+  left:0;
+  right:0;
+  top: 0;
+  margin:auto;
+  
+  
+  
+}
+
+#headTitle{
+	width:40%;
+  display:block;
+  left:0;
+  right:0;
+  top: 55%;
+  margin:auto;
+    margin-top: 1%;
+  color: 	#FAFAD2;
+	
+}
+
+#statusButton{
+	position: absolute;
+	right:0;
+	display: inline-block;
+}
+
+
+ul {
+    list-style-type: none;
+	text-align: center;
+    margin-top: 2%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	margin-bottom: 10px;
+    top: 50%;
+    width: 100%;
+	
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #696969;
+}
